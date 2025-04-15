@@ -21,7 +21,7 @@ This script installs and configures Xray on your VPS.
 - **BBR 配置**：启用 TCP BBR 拥塞控制。
 - **Xray 安装**：下载并配置 Xray 服务。
 - **Nginx 配置**：配置 Nginx 监听 80 端口并代理到 Xray。
-- **SSL 证书**：使用 Certbot 为 `jp.wavetransformer.ink` 域名申请 SSL 证书。
+- **SSL 证书**：使用 Certbot 为 `DOMAIN` 域名申请 SSL 证书。
 
 ### 生成配置
 
