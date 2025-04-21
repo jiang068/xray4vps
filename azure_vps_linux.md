@@ -13,4 +13,17 @@
 ![image](https://github.com/user-attachments/assets/a198808c-112d-4698-bc82-a7d51fceb854)
 ![image](https://github.com/user-attachments/assets/ed092d63-06bb-4697-a84b-de3709ad6d81)  
 然后直接点击"查看+创建"就行。  
-# 3、
+# 3、连接到你的虚拟机  
+访问[azure虚拟机面板](https://portal.azure.com/#browse/Microsoft.Compute%2FVirtualMachines)以选中你的虚拟机。  
+如果你没有域名你可以创建一个dns配置：  
+![image](https://github.com/user-attachments/assets/8a8fd403-3b23-4d3f-a6db-9909628f1ad2)
+点击配置后可以自选一个域名来代替你的公共ip：
+![image](https://github.com/user-attachments/assets/fa0ec880-402a-428d-9417-66ee35ca7cb0)
+然后回到本机，打开你的cmd，输入
+'''code
+ssh 你之前输入的用户名@你刚才设置的dns地址
+'''
+这样可以通过ssh连接到你的虚拟机。  
+![image](https://github.com/user-attachments/assets/d71fac51-cf43-4d9f-96bb-9d4c53065ddb)
+然后输入你的密码就好，没有回显，放心输入后回车即可。
+如果你没有安装ssh请自行安装。
