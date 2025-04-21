@@ -1,4 +1,5 @@
-# (Linux篇)申请azure for students获取多年免费vps并搭建访外线路  
+# (Linux篇)申请azure for students  
+并获取多年免费vps并搭建访外线路。    
 如果你有一个edu邮箱为何不试一试呢。
 ## 1、访问[这里：学生Azure](https://azure.microsoft.com/zh-cn/free/students)  
 点击"免费开始使用"，一步一步按照指引填写你的学校邮箱即可。  
